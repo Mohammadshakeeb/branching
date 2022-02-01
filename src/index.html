@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+       
         .container{
             padding: 35px 50px 35px 50px;
         }
-        </style>
+            .colomn{
+            float: left;
+            width:48%;
+        }
+        .column{
+            float: right;
+            width:48%;
+        }
+        .row:after{
+            content: " ";
+            display: table;
+            clear:both;
+        }
+    </style>
+        
     
 </body>
 <div class="container">
